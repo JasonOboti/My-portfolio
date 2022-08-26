@@ -6,15 +6,13 @@ function sendEmail() {
     const message = document.getElementById("message")
 
     Email.send({
-        Host : "smtp.elasticemail.com",
-        Username : "obotijason@gmail.com",
-        Password : "5BDF998FE80E42E116B502CEE4B0EF7DA552",
+        SecureToken : "b9b2cfe3-c9e8-4efb-9e3b-e782a0fc31d8",
         To : 'jasonoboti@gmail.com',
         From : 'obotijason@gmail.com',
         Subject : "My Port-folio Contact Form",
         Body : `Firstname: ${firstName.value} <br/> Lastname: ${lastName.value} <br/> Email: ${email.value} <br/> Subject: ${subject.value}
         <br/>Message: ${message.value}`
     }).then(
-      message => alert("Message Sent")
+      message => alert("Message Sent Successfully")
     );
 }
