@@ -23,6 +23,7 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+
 	
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="css/animate.css">
@@ -425,10 +426,13 @@
 			</div>
 			<div class="row row-pb-md">
 				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="95"><span><strong>HTML5</strong>95%</span></div>
+					<div class="chart" data-percent="100"><span><strong>HTML5</strong>100%</span></div>
 				</div>
 				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
 					<div class="chart" data-percent="93"><span><strong>CSS3</strong>93%</span></div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="89"><span><strong>Bootstrap 5</strong>89%</span></div>
 				</div>
 				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
 					<div class="chart" data-percent="50"><span><strong>jQuery</strong>50%</span></div>
@@ -453,10 +457,10 @@
 			<div class="row">
 				<div class="col-md-6">
 					<div class="progress-wrap">
-						<h3><span class="name-left">HTML5/CSS3</span><span class="value-right">95%</span></h3>
+						<h3><span class="name-left">HTML5/CSS3</span><span class="value-right">100%</span></h3>
 						<div class="progress">
 						  <div class="progress-bar progress-bar-1 progress-bar-striped active" role="progressbar"
-						  aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+						  aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:100%">
 						  </div>
 						</div>
 					</div>
@@ -601,11 +605,11 @@
 
 	<div id="fh5co-blog">
 		<div class="container">
-			<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+			<!-- <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
 				<h2>Twitter Handle</h2>
 				<p>You can't help everyone, but everyone can help someone. <br/> Follow me on twitter </p>
-			</div>
-			<div class="elfsight-app-c71d0742-3eab-41e1-a56f-d196a8210f0f"></div>
+			</div> 
+			<div class="elfsight-app-c71d0742-3eab-41e1-a56f-d196a8210f0f"></div> -->
 			<!-- <div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
 					<h2>Post on Medium</h2>
@@ -682,7 +686,7 @@
 		</div>
 		<div class="choose animate-box">
 			<h2>Contact</h2>
-			<form class="contact-form" method="post" data-netlify="true" onsubmit="sendEmail(); reset(); return false;">
+			<form class="contact-form" onsubmit="sendEmail(); reset(); return false;">
 				<div class="row form-group">
 					<div class="col-md-6">
 						<input type="text" id="fname" class="form-control" placeholder="Your firstname" required maxlength="15">
@@ -719,9 +723,6 @@
 						  </div>
 					</div>
 					<div class="error"></div>
-				</div>
-				<div class="field">
-					<div data-netlify-recaptcha="true"></div>
 				</div>
 				<div class="form-group">
 					<input type="submit" value="Send Message" class="btn btn-primary">
@@ -774,7 +775,9 @@
 	<script src="https://apps.elfsight.com/p/platform.js" defer></script>
 
 	<!-- Mail -->
-	<script src="js/app.js"></script>
+	<script src="https://smtpjs.com/v3/smtp.js">
+	</script>
+	<script src="js/smtp.js"></script>
 
 
 
