@@ -14,7 +14,7 @@ body {
 }
 
 a {
-  color: #FF2000;
+  color: #ff2000;
   text-decoration: none;
 }
 
@@ -42,7 +42,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #FF2000;
+  background: #ff2000;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -56,7 +56,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #FF2000;
+  background: #ff2000;
   color: #fff;
 }
 
@@ -74,7 +74,6 @@ h6 {
   opacity: 0.1;
   width: 90%;
   z-index: -1;
-  
 }
 
 /* -------------------------------------------------------------
@@ -99,7 +98,7 @@ h6 {
 }
 
 .custom-shape-divider-bottom-1661102025 .shape-fill {
-  fill: #FFFFFF;
+  fill: #ffffff;
 }
 
 /*--------------------------------------------------------------
@@ -121,7 +120,7 @@ h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #FF2000;
+  border: 6px solid #ff2000;
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
@@ -210,7 +209,7 @@ h6 {
   list-style: none;
 }
 
-.nav-menu>ul>li {
+.nav-menu > ul > li {
   position: relative;
   white-space: nowrap;
 }
@@ -244,7 +243,6 @@ h6 {
 }
 
 @media (min-width: 992px) {
-
   .nav-menu a,
   .nav-menu a:focus {
     width: 56px;
@@ -260,26 +258,26 @@ h6 {
 .nav-menu a:hover,
 .nav-menu .active,
 .nav-menu .active:focus,
-.nav-menu li:hover>a {
+.nav-menu li:hover > a {
   color: #fff;
-  background: #FF2000;
+  background: #ff2000;
 }
 
 .nav-menu a:hover span,
 .nav-menu .active span,
 .nav-menu .active:focus span,
-.nav-menu li:hover>a span {
+.nav-menu li:hover > a span {
   color: #fff;
 }
 
 .nav-menu a:hover,
-.nav-menu li:hover>a {
+.nav-menu li:hover > a {
   width: 100%;
   color: #fff;
 }
 
 .nav-menu a:hover span,
-.nav-menu li:hover>a span {
+.nav-menu li:hover > a span {
   display: block;
 }
 
@@ -316,7 +314,7 @@ h6 {
 
 .mobile-nav-active .mobile-nav-toggle {
   color: #fff;
-  background-color: #FF2000;
+  background-color: #ff2000;
 }
 
 /*--------------------------------------------------------------
@@ -362,7 +360,7 @@ h6 {
 }
 
 #hero p span {
-  color: #FF2000;
+  color: #ff2000;
   letter-spacing: 1px;
 }
 
@@ -380,7 +378,7 @@ h6 {
 }
 
 #hero .social-links a:hover {
-  color: #FF2000;
+  color: #ff2000;
 }
 
 @media (max-width: 992px) {
@@ -440,7 +438,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #FF2000;
+  background: #ff2000;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -476,7 +474,7 @@ section {
 .about .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #FF2000;
+  color: #ff2000;
   line-height: 0;
 }
 
@@ -502,7 +500,7 @@ section {
   left: 50%;
   transform: translateX(-50%);
   font-size: 24px;
-  background: #FF2000;
+  background: #ff2000;
   color: #fff;
   border-radius: 50px;
   display: inline-flex;
@@ -559,7 +557,7 @@ section {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #FF2000;
+  background-color: #ff2000;
 }
 
 /*--------------------------------------------------------------
@@ -576,7 +574,7 @@ section {
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #FF2000;
+  border-left: 2px solid #ff2000;
   position: relative;
 }
 
@@ -586,7 +584,7 @@ section {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #FF2000;
+  color: #ff2000;
   margin-bottom: 10px;
 }
 
@@ -620,7 +618,7 @@ section {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #FF2000;
+  border: 2px solid #ff2000;
 }
 
 /*--------------------------------------------------------------
@@ -655,7 +653,7 @@ section {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  color: #FF2000;
+  color: #ff2000;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -796,16 +794,22 @@ section {
   position: relative;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+.portfolio-details
+  .portfolio-details-slider
+  .swiper-pagination
+  .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #FF2000;
+  border: 1px solid #ff2000;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #FF2000;
+.portfolio-details
+  .portfolio-details-slider
+  .swiper-pagination
+  .swiper-pagination-bullet-active {
+  background-color: #ff2000;
 }
 
 .portfolio-details .portfolio-info {
@@ -827,7 +831,7 @@ section {
   font-size: 15px;
 }
 
-.portfolio-details .portfolio-info ul li+li {
+.portfolio-details .portfolio-info ul li + li {
   margin-top: 10px;
 }
 
@@ -1048,11 +1052,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #FF2000;
+  border: 1px solid #ff2000;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #FF2000;
+  background-color: #ff2000;
 }
 
 @media (min-width: 992px) {
@@ -1071,7 +1075,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #FF2000;
+  color: #ff2000;
   float: left;
   width: 44px;
   height: 44px;
@@ -1106,7 +1110,7 @@ section {
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #FF2000;
+  background: #ff2000;
   color: #fff;
 }
 
@@ -1128,7 +1132,7 @@ section {
   font-weight: 600;
 }
 
-.contact .php-email-form .error-message br+br {
+.contact .php-email-form .error-message br + br {
   margin-top: 25px;
 }
 
@@ -1176,8 +1180,8 @@ section {
   padding: 10px 12px;
 }
 
-.contact .php-email-form button[type=submit] {
-  background: #FF2000;
+.contact .php-email-form button[type="submit"] {
+  background: #ff2000;
   border: 0;
   padding: 10px 35px;
   color: #fff;
@@ -1185,7 +1189,7 @@ section {
   border-radius: 50px;
 }
 
-.contact .php-email-form button[type=submit]:hover {
+.contact .php-email-form button[type="submit"]:hover {
   background: #0678e3;
 }
 
@@ -1243,7 +1247,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #FF2000;
+  background: #ff2000;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
