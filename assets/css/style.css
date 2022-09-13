@@ -14,12 +14,12 @@ body {
 }
 
 a {
-  color: #ff2000;
+  color: #f0064e;
   text-decoration: none;
 }
 
 a:hover {
-  color: #067ded;
+  color: #f0064e;
   text-decoration: none;
 }
 
@@ -42,7 +42,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #ff2000;
+  background: #f0064e;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -56,7 +56,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #ff2000;
+  background: #f0064e;
   color: #fff;
 }
 
@@ -120,7 +120,7 @@ h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #ff2000;
+  border: 6px solid #f0064e;
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
@@ -260,7 +260,7 @@ h6 {
 .nav-menu .active:focus,
 .nav-menu li:hover > a {
   color: #fff;
-  background: #ff2000;
+  background: #f0064e;
 }
 
 .nav-menu a:hover span,
@@ -314,7 +314,7 @@ h6 {
 
 .mobile-nav-active .mobile-nav-toggle {
   color: #fff;
-  background-color: #ff2000;
+  background-color: #f0064e;
 }
 
 /*--------------------------------------------------------------
@@ -360,7 +360,7 @@ h6 {
 }
 
 #hero p span {
-  color: #ff2000;
+  color: #f0064e;
   letter-spacing: 1px;
 }
 
@@ -378,7 +378,7 @@ h6 {
 }
 
 #hero .social-links a:hover {
-  color: #ff2000;
+  color: #f0064e;
 }
 
 @media (max-width: 992px) {
@@ -438,7 +438,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #ff2000;
+  background: #f0064e;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -474,7 +474,7 @@ section {
 .about .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #ff2000;
+  color: #f0064e;
   line-height: 0;
 }
 
@@ -500,7 +500,7 @@ section {
   left: 50%;
   transform: translateX(-50%);
   font-size: 24px;
-  background: #ff2000;
+  background: #f0064e;
   color: #fff;
   border-radius: 50px;
   display: inline-flex;
@@ -557,7 +557,7 @@ section {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #ff2000;
+  background-color: #f0064e;
 }
 
 /*--------------------------------------------------------------
@@ -574,7 +574,7 @@ section {
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #ff2000;
+  border-left: 2px solid #f0064e;
   position: relative;
 }
 
@@ -584,7 +584,7 @@ section {
   font-weight: 600;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #ff2000;
+  color: #f0064e;
   margin-bottom: 10px;
 }
 
@@ -618,7 +618,7 @@ section {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #ff2000;
+  border: 2px solid #f0064e;
 }
 
 /*--------------------------------------------------------------
@@ -653,7 +653,7 @@ section {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  color: #ff2000;
+  color: #f0064e;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -802,14 +802,14 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #ff2000;
+  border: 1px solid #f0064e;
 }
 
 .portfolio-details
   .portfolio-details-slider
   .swiper-pagination
   .swiper-pagination-bullet-active {
-  background-color: #ff2000;
+  background-color: #f0064e;
 }
 
 .portfolio-details .portfolio-info {
@@ -1052,11 +1052,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #ff2000;
+  border: 1px solid #f0064e;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #ff2000;
+  background-color: #f0064e;
 }
 
 @media (min-width: 992px) {
@@ -1075,7 +1075,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #ff2000;
+  color: #f0064e;
   float: left;
   width: 44px;
   height: 44px;
@@ -1110,7 +1110,7 @@ section {
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #ff2000;
+  background: #f0064e;
   color: #fff;
 }
 
@@ -1181,7 +1181,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #ff2000;
+  background: #f0064e;
   border: 0;
   padding: 10px 35px;
   color: #fff;
@@ -1247,7 +1247,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #ff2000;
+  background: #f0064e;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1271,4 +1271,11 @@ section {
 
 #footer .credits {
   font-size: 13px;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #120505;
+    color: white;
+  }
 }
